@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="update word"
+        android:gravity="center"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:fontFamily="sans-serif-black"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/custom.editText.style"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/fragmentAddWordDialog_WordNameET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Word"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/custom.editText.style"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/fragmentAddWordDialog_WordMeaningET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Meaning"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/custom.editText.style"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        >
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/fragmentAddWordDialog_WordTypeET"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Type"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveWordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="save"
+        android:layout_margin="0dp"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Ui.Fragments.AddWord">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/custom.editText.style"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addWordActivity_wordName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/writeNewWord"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/custom.editText.style"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addWordActivity_wordMeaning"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/writeTheMeaning"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/custom.editText.style"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/addWordActivity_wordType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/writeTheType"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Keep it</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="writeNewWord">word</string>
+    <string name="writeTheMeaning">meaning</string>
+    <string name="writeTheType">type</string>
+    <string name="menu_add_word_saveTitle">Save</string>
+
+    //===========
+    <color name="addWordDialog_editText_strokeColor">#1976D2</color>
+</resources>
